@@ -10,6 +10,8 @@ int main(void)
 	int num_right = 0;//回答正确次数
 	double usr_score = 0.0;//得分，某个比值
 	char usr_more;//记录用户回答是否愿意继续
+	
+
 	cout << "Try another sequence? Y/N? ";
 	cin >> usr_more;
 	
